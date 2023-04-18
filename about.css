@@ -1,0 +1,88 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+  
+  .flex-row {
+    display: flex;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #ham-menu {
+    display: none;
+    position: absolute;
+    left: 0%;
+    top: -1%;
+    height: 882px;
+    width: 388px;
+    text-align: left;
+    z-index: 99;
+    background-color: rgb(10, 17, 32);
+    backdrop-filter: blur(10px);
+  }
+  
+  .ham {
+    list-style: none;
+    font-size: 46px;
+  }
+  
+  .ham-items {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .head {
+    background-color: white;
+    justify-content: flex-start;
+    width: 375px;
+    height: 63px;
+    padding-top: 6%;
+    padding-left: 4%;
+  }
+  
+  .logo {
+    width: 50px;
+    padding-left: 250%;
+  }
+  
+  #menu {
+    padding-top: 60%;
+  }
+  
+  .main-headline {
+    height: 5%;
+    width: 375px;
+    background-image: url(https://media.istockphoto.com/id/1200708728/vector/quantum-computing-deep-learning-artificial-intelligence-signal-cryptography-big-data.jpg?s=612x612&w=0&k=20&c=KJsh0w5W8E4p_w_XTd9lWgGtDyzsv7b5_-W2DaSat2c=);
+    background-size: 200% 70%;
+    background-repeat: no-repeat;
+  }
+  
+  .welcome {
+    margin: 0%;
+    padding-top: 10%;
+    font-weight: 1000;
+    text-align: center;
+  }
+  
+  .Meco {
+    font-size: 50px;
+    color: rgb(61, 20, 175);
+    margin-top: 0%;
+  }
+  
+  .main-headline h3 {
+    margin: 0%;
+  }
+  
+  .main-headline p {
+    padding-top: 20%;
+  }
+  
+  .bottom {
+    color: rgba(20, 20, 114, 0.781);
+    padding-top: 30%;
+  }
