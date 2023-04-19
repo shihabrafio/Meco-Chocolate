@@ -38,10 +38,8 @@
 .head {
   background-color: white;
   justify-content: flex-start;
-  width: 375px;
   height: 63px;
   padding-top: 6%;
-  padding-left: 4%;
 }
 
 .logo {
@@ -55,7 +53,7 @@
 }
 
 .main-headline {
-  width: 106%;
+  width: fit-content;
   background-image: url(Images/mainbg.png);
   background-size: 200% 83%;
   background-repeat: no-repeat;
@@ -102,7 +100,7 @@
 .program {
   position: absolute;
   top: 98%;
-  width: 93%;
+  width: fit-content;
   background-image: url(./images/repeat-bg.png);
   padding: 24px;
   left: 0%;
@@ -127,11 +125,15 @@
   width: 20%;
 }
 
-.red-bar {
+.red-bar, .red-bar_1 {
   width: 53px;
   height: 16px;
   border-bottom: 1px solid rgb(239, 81, 60);
   margin: 0 auto 54px;
+}
+
+.red-bar_1 {
+  margin-top: -7%;
 }
 
 .section-heading {
@@ -140,7 +142,7 @@
   color: white;
 }
 
-.featured-speakers .section-heading {
+.section-heading_1 {
   color: black;
 }
 
@@ -157,9 +159,9 @@
   margin: 30px 5px 35px 75px;
 }
 
-.featured-speakers {
+.speaker_section {
   position: absolute;
-  top: 255%;
+  top: 274%;
 }
 
 .partner-img {
@@ -168,18 +170,18 @@
 }
 
 
-#featured-speakers > h2 {
+#speaker_section > h2 {
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 10%;
 }
 
-#featured-speakers > hr {
+#speaker_section > hr {
   margin: 10px auto 54px;
   width: 60px;
   border: 1px solid #ec5242;
 }
 
-#featured-speakers-list {
+#speaker_section-list {
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -232,9 +234,9 @@
   }
 
   .logo {
-    width: 30%;
-    margin-left: 0%;
-    margin-top: -22%;
+    width: 12%;
+    margin-left: 3%;
+    margin-top: -8%;
   }
 
   #menu {
@@ -291,16 +293,25 @@
     display: none;
   }
 
-  .featured-speakers {
+  .speaker_section {
     top: 208%;
+    margin-left: 6%;
   }
 
-  #featured-speakers > h2 {
-    width: 232%;
+  #featured-speakers {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 107%;
   }
 
-  #featured-speakers .red-bar {
-    margin-left: 109%;
+  #speaker_section > h2 {
+    width: 68%;
+    margin-left: 19%;
+  }
+
+  .red-bar_1 {
+    margin-left: 50%;
+    margin-top: -9%;
   }
   
   .main-prog-items {
@@ -327,4 +338,11 @@
     color: white;
     text-align: center;
   }
+
+  .grp-1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
 }
