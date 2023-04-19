@@ -1,88 +1,348 @@
 * {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-  }
-  
-  .flex-row {
-    display: flex;
-  }
-  
-  .flex-column {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #ham-menu {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#ham-menu {
+  display: none;
+  position: absolute;
+  left: 0%;
+  top: -1%;
+  height: 882px;
+  width: 388px;
+  text-align: left;
+  z-index: 99;
+  background-color: rgb(10, 17, 32);
+  backdrop-filter: blur(10px);
+}
+
+.ham {
+  list-style: none;
+  font-size: 46px;
+}
+
+.ham-items {
+  text-decoration: none;
+  color: white;
+}
+
+.head {
+  background-color: white;
+  justify-content: flex-start;
+  height: 63px;
+  padding-top: 6%;
+  padding-left: 4%;
+}
+
+.logo {
+  width: 50px;
+  margin-left: 346%;
+  margin-top: -45%;
+}
+
+#menu {
+  padding-top: 9%;
+}
+
+.main-headline {
+  width: 98%;
+  background-image: url(Images/about1.jpg);
+  background-size: 200% 83%;
+  background-repeat: no-repeat;
+  padding-left: 2%;
+}
+
+.welcome {
+  margin: 0%;
+  padding-top: 10%;
+  text-align: center;
+  background: -webkit-linear-gradient(#fffcfe, #e0e7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Meco {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#f1f1f1, #d40b0b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 6%;
+  letter-spacing: 52px;
+}
+
+.welcome-2 {
+  margin: 0%;
+  padding-top: 4%;
+  letter-spacing: 8px;
+  text-align: center;
+  background: -webkit-linear-gradient(#942897, #fa0b97);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bottom {
+  color: rgba(20, 20, 114, 0.781);
+  padding-top: 30%;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+.mail {
+  margin-top: 24%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 5px solid blueviolet;
+}
+
+.mail > a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-1 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.past h2 {
+  text-align: center;
+}
+
+
+.past h4 {
+  text-align: center;
+  color: red;
+  margin-top: 0%;
+}
+
+.red-bar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid rgb(239, 81, 60);
+  margin: 0 auto 27px;
+  margin-left: 43%;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  padding: 33px 0 40px 0;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-position: center;
+  background-blend-mode: multiply;
+  flex-flow: column;
+  flex-basis: 210px;
+  flex-grow: 1;
+  text-align: center;
+  color: #fafafa;
+  padding: 80px 0;
+  gap: 20px;
+  width: 80%;
+  max-height: 100px;
+  background-size: cover;
+  background-color: #ec5242;
+}
+
+.event:nth-child(1) {
+  background-image: url(./images/trip1.png);
+}
+
+.event:nth-child(2) {
+  background-image: url(./images/trip2.png);
+}
+
+.partners-section {
+  background-color: #3f444f;
+  padding: 10% 0;
+  width: 105%;
+  margin-left: -3%;
+}
+
+.partners-section h2 {
+  text-align: center;
+  color: white;
+}
+
+.partners-flex {
+  width: 90%;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partners-list {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 29px;
+}
+
+.logo-2 {
+  width: 50px;
+}
+
+.partner-img {
+  width: 125px;
+  height: 40px;
+  filter: invert(90%) hue-rotate(311deg) brightness(80%) contrast(10%);
+}
+
+.footer-rights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 5% 0;
+  margin-left: 5%;
+}
+.contact {
+  background: #F7F7F8;
+}
+
+.copy-rights {
+  font-size: 1rem;
+  margin: 11%;
+  color: #000;
+}
+
+.logo_des {
+  display: none;
+}
+
+.menu_items {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  #menu {
     display: none;
-    position: absolute;
-    left: 0%;
-    top: -1%;
-    height: 882px;
-    width: 388px;
-    text-align: left;
-    z-index: 99;
-    background-color: rgb(10, 17, 32);
-    backdrop-filter: blur(10px);
   }
-  
-  .ham {
+
+  .welcome,.welcome-2 {
+    font-size: 40px;
+  }
+  .logo {
+    width: 14%;
+    /* padding-left: 0; */
+    margin: 0%;
+    margin-top: -8%;
+  }
+
+  .menu_items {
+    display: flex;
     list-style: none;
-    font-size: 46px;
+    justify-content: space-around;
+    position: absolute;
+    top: 5%;
+    right: 14%;
+    text-decoration: none;
+  }
+
+  .nav_items {
+    padding-left: 18%;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .nav_items a {
+    text-decoration: none;
+  }
+
+  .main-headline {
+    width: 98%;
   }
   
-  .ham-items {
-    text-decoration: none;
+  .partners-section {
+    width: 103%;
+    display: none;
+  }
+
+  .footer-rights {
+    justify-content: space-around;
+    border-top: 1px solid;
+    background: #2E2E2E;
+    margin-left: 0%;
+  }
+
+  .copy-rights {
     color: white;
   }
-  
-  .head {
-    background-color: white;
-    justify-content: flex-start;
-    width: 375px;
-    height: 63px;
-    padding-top: 6%;
-    padding-left: 4%;
+
+  .logo-1 {
+    width: 36%;
+    margin-left: 32%;
   }
-  
-  .logo {
-    width: 50px;
-    padding-left: 250%;
+  .logo-2 {
+    width: 102px;
   }
-  
-  #menu {
-    padding-top: 60%;
+  .past {
+    background: white;
   }
-  
-  .main-headline {
-    height: 5%;
-    width: 375px;
-    background-image: url(https://media.istockphoto.com/id/1200708728/vector/quantum-computing-deep-learning-artificial-intelligence-signal-cryptography-big-data.jpg?s=612x612&w=0&k=20&c=KJsh0w5W8E4p_w_XTd9lWgGtDyzsv7b5_-W2DaSat2c=);
-    background-size: 200% 70%;
-    background-repeat: no-repeat;
-  }
-  
-  .welcome {
-    margin: 0%;
-    padding-top: 10%;
-    font-weight: 1000;
+
+  .logo_des {
+    display: inline;
     text-align: center;
+    padding-top: 5%;
+  }
+
+  .logo_des h2 {
+    padding-top: 4%;
+    word-spacing: 4%;
+  }
+  .events {
+    flex-direction: row;
+    background: white;
+    padding-bottom: 8%;
+  }
+  .red-bar {
+    margin-left: 48%;
+  }
+  .mail {
+    margin-top: 5%;
+    border: none;
+    font-size: 20px;
+    padding-top: 4%;
+  }
+  .main-headline {
+    background-size: 200% 91%;
   }
   
-  .Meco {
-    font-size: 50px;
-    color: rgb(61, 20, 175);
-    margin-top: 0%;
+  .logo_des p {
+    margin: 4%;
+    word-spacing: 4px;
+    margin-top: 2%;
+  }
+
+  .past h2 {
+    padding-top: 4%;
+  }
+
+  .Meco { 
+    text-align: center;
+    letter-spacing: 194px;
+    margin-left: 10%;
+    font-size: 80px;
   }
   
-  .main-headline h3 {
-    margin: 0%;
-  }
-  
-  .main-headline p {
-    padding-top: 20%;
-  }
-  
-  .bottom {
-    color: rgba(20, 20, 114, 0.781);
-    padding-top: 30%;
-  }
+}
