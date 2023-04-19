@@ -174,9 +174,9 @@ Give a :star:️ if you like this project and how I managed to build it!
 
 ## :pray: Acknowledgments <a name="acknowledgements"></a>
 
-- Thanks to the Microverse team for the great curriculum.
-- Thanks to the Code Reviewer(s) for the insightful feedbacks.
-- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- To [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), Original design.
+- Creative Commons license of the design
+- I would like to thanks all my coding partners at Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
