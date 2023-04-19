@@ -3,7 +3,6 @@ const menu = document.getElementById("menu");
 const cardSection = document.getElementById("featured-speakers");
 function clickMenu() {
   ham.style.display = "unset";
-  // menu.style.display = 'none';
 }
 function clickX() {
   ham.style.display = "none";
@@ -56,7 +55,7 @@ const speakers = [
 ];
 
 
-var x = window.matchMedia("(max-width: 600px)");
+var x = window.matchMedia("(max-width: 768px)");
 
 if (x.matches) {
   
@@ -75,6 +74,18 @@ if (x.matches) {
   });
   console.log("Mobile");
 } else {
-  // Desktop
+  speakers.forEach((speaker) => {
+    const newDiv = document.createElement("div");
+    newDiv.innerHTML = `
+        <div class="grp-1">
+          <img class="partner-img" src="${speaker.image_url}" alt="logo">
+          <div class="flex-column grp-2">
+          <h2>${speaker.name}</h2>
+          <h4>${speaker.designation}</h4>
+          <p>${speaker.introduction}</p>
+          </div>
+        </div>`;
+    cardSection.append(newDiv);
+  });
   console.log("Desktop");
 }
