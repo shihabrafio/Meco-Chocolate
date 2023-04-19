@@ -2,7 +2,7 @@ const ham = document.getElementById("ham-menu");
 const menu = document.getElementById("menu");
 const cardSection = document.getElementById("featured-speakers");
 function clickMenu() {
-  ham.style.display = "unset";
+  ham.style.display = "unset";r
 }
 function clickX() {
   ham.style.display = "none";
