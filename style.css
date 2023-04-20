@@ -97,6 +97,7 @@
 .menu_items {
   display: none;
 }
+
 .program {
   position: absolute;
   top: 98%;
@@ -120,12 +121,14 @@
 .prog-items h2 {
   color: red;
 }
+
 .prog-items img {
   height: 20%;
   width: 20%;
 }
 
-.red-bar, .red-bar_1 {
+.red-bar,
+.red-bar_1 {
   width: 53px;
   height: 16px;
   border-bottom: 1px solid rgb(239, 81, 60);
@@ -169,6 +172,12 @@
   height: 120px;
 }
 
+.grp-2 h2 {
+  height: 24px;
+  width: 197px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 
 #speaker_section > h2 {
   text-align: center;
@@ -193,13 +202,6 @@
   display: flex;
 }
 
-.grp-2 h2 {
-  height: 24px;
-  width: 197px;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
 .grp-2 h4 {
   margin-top: 2%;
   color: red;
@@ -211,7 +213,9 @@
   margin-bottom: 20%;
 }
 
-#whole-program,.partners-section,.footer-rights {
+#whole-program,
+.partners-section,
+.footer-rights {
   display: none;
 }
 
@@ -276,7 +280,6 @@
     font-size: 30px;
     margin-top: 4%;
     padding-left: 79%;
-
   }
 
   .welcome {
@@ -289,7 +292,8 @@
     width: 92%;
     padding-left: 3%;
   }
-  .main-headline p{
+
+  .main-headline p {
     display: none;
   }
 
@@ -300,8 +304,13 @@
 
   #featured-speakers {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 107%;
+  }
+
+  .partners-section h2 {
+    text-align: center;
+    color: white;
   }
 
   #speaker_section > h2 {
@@ -313,10 +322,9 @@
     margin-left: 50%;
     margin-top: -9%;
   }
-  
+
   .main-prog-items {
     display: flex;
-    
   }
 
   .prog-items {
@@ -352,12 +360,7 @@
     margin-left: -3%;
     margin-top: 107%;
   }
-  
-  .partners-section h2 {
-    text-align: center;
-    color: white;
-  }
-  
+
   .partners-flex {
     width: 90%;
     margin: auto;
@@ -366,7 +369,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  
+
   .partners-list {
     align-items: center;
     justify-content: center;
@@ -375,17 +378,17 @@
     flex-wrap: wrap;
     gap: 29px;
   }
-  
+
   .logo-2 {
     width: 24%;
   }
-  
+
   .sponsor {
     width: 16%;
     height: 75%;
     filter: invert(90%) hue-rotate(311deg) brightness(80%) contrast(10%);
   }
-  
+
   .footer-rights {
     display: flex;
     justify-content: space-between;
@@ -394,14 +397,14 @@
     padding: 2% 0;
     margin-left: 5%;
   }
+
   .contact {
-    background: #F7F7F8;
+    background: #f7f7f8;
   }
-  
+
   .copy-rights {
     font-size: 2rem;
     margin: 10%;
     color: #000;
   }
-  
 }

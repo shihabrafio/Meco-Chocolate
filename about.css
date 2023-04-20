@@ -117,7 +117,6 @@
   text-align: center;
 }
 
-
 .past h4 {
   text-align: center;
   color: red;
@@ -216,8 +215,9 @@
   padding: 5% 0;
   margin-left: 5%;
 }
+
 .contact {
-  background: #F7F7F8;
+  background: #f7f7f8;
 }
 
 .copy-rights {
@@ -239,11 +239,14 @@
     display: none;
   }
 
-  .welcome,.welcome-2 {
+  .welcome,
+  .welcome-2 {
     font-size: 40px;
   }
+
   .logo {
     width: 14%;
+
     /* padding-left: 0; */
     margin: 0%;
     margin-top: -8%;
@@ -271,8 +274,9 @@
 
   .main-headline {
     width: 98%;
+    background-size: 200% 91%;
   }
-  
+
   .partners-section {
     width: 103%;
     display: none;
@@ -281,7 +285,7 @@
   .footer-rights {
     justify-content: space-around;
     border-top: 1px solid;
-    background: #2E2E2E;
+    background: #2e2e2e;
     margin-left: 0%;
   }
 
@@ -293,9 +297,11 @@
     width: 36%;
     margin-left: 32%;
   }
+
   .logo-2 {
     width: 102px;
   }
+
   .past {
     background: white;
   }
@@ -310,24 +316,24 @@
     padding-top: 4%;
     word-spacing: 4%;
   }
+
   .events {
     flex-direction: row;
     background: white;
     padding-bottom: 8%;
   }
+
   .red-bar {
     margin-left: 48%;
   }
+
   .mail {
     margin-top: 5%;
     border: none;
     font-size: 20px;
     padding-top: 4%;
   }
-  .main-headline {
-    background-size: 200% 91%;
-  }
-  
+
   .logo_des p {
     margin: 4%;
     word-spacing: 4px;
@@ -338,11 +344,10 @@
     padding-top: 4%;
   }
 
-  .Meco { 
+  .Meco {
     text-align: center;
     letter-spacing: 194px;
     margin-left: 10%;
     font-size: 80px;
   }
-  
 }
