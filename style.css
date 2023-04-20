@@ -211,14 +211,14 @@
   margin-bottom: 20%;
 }
 
-#whole-program {
+#whole-program,.partners-section,.footer-rights {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
   .main-headline {
     height: 50%;
-    width: 100%;
+    width: 97%;
     background-image: url(Images/mainbg.png);
     background-size: 105% 92%;
     background-repeat: no-repeat;
@@ -227,10 +227,10 @@
 
   .program {
     top: 135%;
-    width: 99%;
+    width: 98%;
     background-image: url(./images/repeat-bg.png);
     padding: 24px;
-    left: 0%;
+    left: -2%;
   }
 
   .logo {
@@ -344,5 +344,64 @@
     flex-wrap: wrap;
   }
 
+  .partners-section {
+    display: block;
+    background-color: #3f444f;
+    padding: 2% 0;
+    width: 103%;
+    margin-left: -3%;
+    margin-top: 107%;
+  }
+  
+  .partners-section h2 {
+    text-align: center;
+    color: white;
+  }
+  
+  .partners-flex {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .partners-list {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 29px;
+  }
+  
+  .logo-2 {
+    width: 24%;
+  }
+  
+  .sponsor {
+    width: 16%;
+    height: 75%;
+    filter: invert(90%) hue-rotate(311deg) brightness(80%) contrast(10%);
+  }
+  
+  .footer-rights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 2% 0;
+    margin-left: 5%;
+  }
+  .contact {
+    background: #F7F7F8;
+  }
+  
+  .copy-rights {
+    font-size: 2rem;
+    margin: 10%;
+    color: #000;
+  }
   
 }
