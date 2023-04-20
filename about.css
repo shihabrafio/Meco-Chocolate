@@ -291,6 +291,9 @@
 
   .copy-rights {
     color: white;
+    font-size: 2rem;
+    margin-left: -17%;
+    padding-right: 29%;
   }
 
   .logo-1 {
@@ -299,7 +302,8 @@
   }
 
   .logo-2 {
-    width: 102px;
+    width: 24%;
+    margin-left: 45%;
   }
 
   .past {

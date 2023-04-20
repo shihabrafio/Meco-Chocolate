@@ -28,7 +28,7 @@
 
 **Capstone Project-Module 1** is the final project of module-1. Using Simple html, css and javascript .
 
-[Project Presentation]()
+[Project Presentation](https://www.loom.com/share/50f76888e0be4ed1b2e5a1bc1a5f7e54)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -182,6 +182,6 @@ Give a :star:️ if you like this project and how I managed to build it!
 
 ## :memo: License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
