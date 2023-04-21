@@ -172,11 +172,11 @@
 }
 
 .event:nth-child(1) {
-  background-image: url(./images/trip1.png);
+  background-image: url(./Images/trip1.png);
 }
 
 .event:nth-child(2) {
-  background-image: url(./images/trip2.png);
+  background-image: url(./Images/trip2.png);
 }
 
 .partners-section {
