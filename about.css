@@ -235,6 +235,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  #ham-menu {
+    display: none;
+  }
+
   #menu {
     display: none;
   }
