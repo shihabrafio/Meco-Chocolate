@@ -3,6 +3,7 @@ const menu = document.getElementById('menu');
 const cardSection = document.getElementById('featured-speakers');
 function clickMenu() {
   ham.style.display = 'inline';
+  menu.style.display = 'none';
 }
 function clickX() {
   ham.style.display = 'none';

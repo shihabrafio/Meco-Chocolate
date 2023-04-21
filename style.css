@@ -13,6 +13,7 @@
 }
 
 #ham-menu {
+  display: none;
   position: fixed;
   left: 0%;
   top: -1%;
@@ -38,7 +39,7 @@
   background-color: white;
   justify-content: flex-start;
   height: 63px;
-  padding-top: 6%;
+  padding-top: 3%;
 }
 
 .logo {
@@ -247,9 +248,9 @@
   }
 
   .logo {
-    width: 12%;
+    width: 8%;
     margin-left: 3%;
-    margin-top: -8%;
+    margin-top: -2%;
   }
 
   #menu {
