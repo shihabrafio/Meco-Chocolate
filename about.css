@@ -116,7 +116,7 @@
 }
 
 .mail > a {
-  text-decoration: none;
+  font-weight: bold;
   color: black;
 }
 
@@ -404,11 +404,12 @@
   .about_des {
     box-sizing: border-box;
     text-align: center;
-    color: white;
+    color: black;
     margin-right: 8%;
     margin-left: 8%;
     margin-top: 9%;
-    background: grey;
+    background: white;
+    padding: 3%;
     opacity: 79%;
   }
 }

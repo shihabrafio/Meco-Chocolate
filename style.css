@@ -57,21 +57,22 @@
   background-image: url(Images/mainbg.png);
   background-size: 200% 83%;
   background-repeat: no-repeat;
+  background-color: #f8f8f8;
   padding-left: 2%;
+  padding-bottom: 6%;
 }
 
 .welcome {
   margin: 0%;
   padding-top: 10%;
-  background: -webkit-linear-gradient(#0a4d68, #32406d);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #ec5242;
 }
 
 .Meco {
   font-size: 50px;
-  color: rgb(61, 20, 175);
+  color: #ec5242;
   margin-top: 0%;
+  font-weight: 700;
 }
 
 .welcome-2 {
@@ -90,8 +91,23 @@
 }
 
 .bottom {
-  color: rgba(20, 20, 114, 0.781);
-  padding-top: 30%;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  opacity: 92%;
+  padding: 1%;
+  padding-bottom: -15%;
+  border: 10px solid white;
+  margin-left: -4%;
+}
+
+.date {
+  font-weight: 700;
+  color: #595959;
+}
+
+.venue {
+  color: #868686;
 }
 
 .menu_items {
@@ -100,7 +116,7 @@
 
 .program {
   position: absolute;
-  top: 112%;
+  top: 67%;
   width: fit-content;
   background-image: url(./images/repeat-bg.png);
   padding: 24px;
@@ -163,7 +179,7 @@
 
 .speaker_section {
   position: absolute;
-  top: 274%;
+  top: 242%;
 }
 
 .partner-img {
@@ -297,19 +313,15 @@
   .date,
   .venue {
     margin-left: 5%;
-    color: blueviolet;
   }
 
   .bottom {
-    font-size: 18px;
-    box-sizing: border-box;
-    background-color: #d7dae7;
     opacity: 68%;
     padding: 1%;
     padding-bottom: -15%;
     border: 10px solid white;
     margin-right: 55%;
-    margin-left: 4%;
+    margin-left: 5%;
   }
 
   .main-headline p {
