@@ -13,12 +13,11 @@
 }
 
 #ham-menu {
-  display: none;
-  position: absolute;
+  position: fixed;
   left: 0%;
   top: -1%;
-  height: 882px;
-  width: 388px;
+  height: 100%;
+  width: 100%;
   text-align: left;
   z-index: 99;
   background-color: rgb(10, 17, 32);
@@ -70,13 +69,25 @@
   -webkit-text-fill-color: transparent;
 }
 
+.about_des {
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  margin-right: 8%;
+  margin-left: 8%;
+  margin-top: 9%;
+  background: grey;
+  opacity: 79%;
+}
+
 .Meco {
   font-size: 50px;
   background: -webkit-linear-gradient(#f1f1f1, #d40b0b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 6%;
-  letter-spacing: 52px;
+  letter-spacing: 24px;
+  text-align: center;
 }
 
 .welcome-2 {
@@ -234,6 +245,10 @@
   display: none;
 }
 
+.aside-section {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   #ham-menu {
     display: none;
@@ -246,6 +261,7 @@
   .welcome,
   .welcome-2 {
     font-size: 40px;
+    padding-top: 4%;
   }
 
   .logo {
@@ -357,5 +373,41 @@
     letter-spacing: 194px;
     margin-left: 10%;
     font-size: 80px;
+    margin-top: 4%;
+  }
+
+  .aside-section {
+    display: block;
+    background-color: #3e3e3e;
+    margin-top: -1%;
+    margin-left: -1%;
+  }
+
+  .top-elements {
+    display: flex;
+    flex-direction: row;
+    padding: 9px;
+    font-weight: 400;
+    font-size: 14px;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 10%;
+    color: #d3d3d3;
+  }
+
+  .top-elements a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .about_des {
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 9%;
+    background: grey;
+    opacity: 79%;
   }
 }
