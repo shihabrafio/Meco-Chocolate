@@ -3,7 +3,8 @@
   font-weight: 400;
 }
 
-html,body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -139,7 +140,7 @@ html,body {
 }
 
 .prog-items h2 {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 .prog-items img {
