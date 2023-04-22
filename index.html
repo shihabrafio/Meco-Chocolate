@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Module1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.html">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./Images/logo-no-background.svg" type="image/svg" />
+  </head>
+  <body>
+    <aside class="aside-section">
+      <div class="top-elements">
+          <i class="fa-brands fa-facebook-f aside-icon"></i>
+          <i class="fa-brands fa-twitter aside-icon"></i>
+          <a href="#">English</a>
+          <a href="#">Page</a>
+          <a href="#">Logout</a>
+      </div>
+    </aside>
+    <section class="nav-bar">
+      <div id="ham-menu">
+        <img
+          onclick="clickX()"
+          id="x"
+          src="https://img.icons8.com/sf-regular/48/FFFFFF/multiply.png"
+        />
+        <ul class="ham">
+          <li>
+            <a href="#" class="ham-items" onclick="clickX()"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="ham-items" onclick="clickX()">About</a>
+          </li>
+          <li>
+            <a href="#contact" class="ham-items" onclick="clickX()">Program</a>
+          </li>
+          <li>
+            <a href="#contact" class="ham-items" onclick="clickX()">Join</a>
+          </li>
+          <li>
+            <a href="#contact" class="ham-items" onclick="clickX()">Sponsor</a>
+          </li>
+        </ul>
+      </div>
+      <header class="head flex-row">
+        <nav>
+          <img
+            onclick="clickMenu()"
+            id="menu"
+            src="./Images/Icon - Menu.png"
+            alt="Menu Logo"
+            class="menu-logo"
+          />
+          <a href="">
+            <img class="logo" src="Images/logo-black.png" alt="logo" />
+          </a>
+          <ul class="menu_items flex-row">
+            <li class="nav_items"><a href="#">Home</a></li>
+            <li class="nav_items"><a href="about.html">About</a></li>
+            <li class="nav_items"><a href="">Program</a></li>
+            <li class="nav_items"><a href="">Join</a></li>
+            <li class="nav_items"><a href="">Sponsor</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="main-headline">
+        <h2 class="welcome">"Welcome Humans"</h2>
+        <h3 class="welcome-2"></h3>
+        <h1 class="Meco">World is moving with MECO</h1>
+        <h3 class="bottom">
+          We are glad to share you that A joyful celebration believing in the
+          value of Machine Learning and A.I., creating a positive change with
+          people from over 80 countries is taking place in October, in Korea.
+        </h3>
+        <h2 class="date">2015.10.15(THU) ~ 16(FRI)</h2>
+        <h3 class="venue">@ Dhaka, Bangladesh
+        </h5>
+      </div>
+    </section>
+    <section class="program">
+        <h2 class="section-heading">Main Program</h2>
+            <div class="red-bar"></div>
+            <div class=" main-prog-items">
+                <div class="prog-items">
+                    <img src="./Images/program1.png" alt="icon">
+                    <h2>Lecture&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit?</p>     
+                </div>
+                <div class="prog-items">
+                    <img src="./Images/program2.png" alt="icon">
+                    <h2>CC Exhibition</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit?</p>     
+                </div>
+                <div class="prog-items">
+                    <img src="./Images/program3.png" alt="icon">
+                    <h2>Forum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit?</p>     
+                </div>
+                <div class="prog-items">
+                    <img src="./Images/program4.png" alt="icon">
+                    <h2>Workshop</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit?</p>     
+                </div>
+                <div class="prog-items">
+                    <img src="./Images/program5.png" alt="icon">
+                    <h2>CC Lingration</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit?</p>     
+                </div>
+            </div>
+            <button type="submit" class="register-btn">Register Now</button>
+            <a href="#" id="whole-program">See The Whole Program</a>
+    </section>
+    <section class="speaker_section" id="speaker_section">
+      <h2 class="section-heading_1">Featured Speakers</h2>
+      <div class="red-bar_1"></div>
+      <div id="featured-speakers"></div>
+    </section>
+    <section class="partners-section">
+      <h2 class="section-heading">Partners</h2>
+      <div class="red-bar"></div>
+      <div class="partners-flex">
+        <div class="partners-list">
+          <img class="sponsor" src="./Images/partner1.png" alt="logo">
+          <img class="sponsor" src="./Images/partner2.png" alt="logo">
+          <img class="sponsor" src="./Images/partner3.png" alt="logo">
+          <img class="sponsor" src="./Images/partner4.png" alt="logo">
+          <img class="sponsor" src="./Images/partner5.png" alt="logo">
+        </div>
+      </div>
+    </section>
+    <footer class="footer-rights">
+        <div>
+          <a href="#">
+            <img class="logo-2" src="Images/logo-black.png" alt="logo" />
+          </a>
+        </div>
+        <div>
+          <p class="copy-rights">
+            Media Encounter Organization &nbsp;&nbsp;
+            All Rights Reserved
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f6fd7ea271.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
